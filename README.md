@@ -1,13 +1,11 @@
-# 🧠 Mental Health Detection Models: Anxiety & Depression
+# 🧠 Mental Health Meme Classifier - Inference Notebooks
 
-This repository contains two machine learning models trained to identify indicators of **anxiety** and **depression**. The models are implemented in Jupyter notebooks and can be used for research, educational purposes, or as a baseline for more advanced mental health analytics projects.
+This repository contains Jupyter notebooks for performing inference on mental health memes using pretrained models. The classification is divided into two tasks:
 
----
+- `trained_anxiety.ipynb`: Classifies memes into one of several anxiety categories (single-label classification).
+- `trained_depression.ipynb`: Predicts multiple subcategories of depression (multi-label classification).
 
-## 🔍 Contents
-
-- `trained_anxiety.ipynb` – A notebook demonstrating the training and evaluation of a model for detecting anxiety.
-- `trained_depression.ipynb` – A notebook for building and testing a model for identifying depression.
+Both notebooks use pretrained multimodal models that combine visual and textual meme features.
 
 ---
 
