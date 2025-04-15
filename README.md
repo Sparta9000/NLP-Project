@@ -37,5 +37,3 @@ You can download the pre-trained model weights from the links below:
 - Manan Aggarwal (2022273)
 - Shobhit Raj (2022482)
 - Souparno Ghose (2022506)
-
----
