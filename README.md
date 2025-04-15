@@ -1,4 +1,4 @@
-# 🧠 Mental Health Meme Classifier - Inference Notebooks
+# Mental Health Meme Classifier - Inference Notebooks
 
 This repository contains Jupyter notebooks for performing inference on mental health memes using pretrained models. The classification is divided into two tasks:
 
@@ -7,49 +7,15 @@ This repository contains Jupyter notebooks for performing inference on mental he
 
 Both notebooks use pretrained multimodal models that combine visual and textual meme features.
 
----
-
-## 🧠 Models Overview
-
-### 1. `trained_anxiety.ipynb`
-
-This notebook includes:
-
-- Data preprocessing for anxiety-related features  
-- Feature extraction and vectorization  
-- Model training using *[insert algorithm, e.g., Logistic Regression, SVM, or BERT]*  
-- Evaluation metrics: accuracy, precision, recall, F1-score  
-- Confusion matrix and visualizations  
-
-### 2. `trained_depression.ipynb`
-
-This notebook includes:
-
-- Data loading and cleaning for depression detection  
-- Natural language processing (if applicable)  
-- Model training and hyperparameter tuning  
-- Performance evaluation and metrics visualization  
-- Inference on new or sample data  
-
----
-
-## ⚙️ Requirements
+## Requirements
 
 To run the notebooks, install the following Python libraries:
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+pip install pandas numpy matplotlib scikit-learn jupyter transformers torch torchvision tqdm pillow
 ```
 
-Additional packages (if used):
-
-```bash
-pip install nltk xgboost keras tensorflow spacy transformers
-```
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 Launch Jupyter Notebook:
 
@@ -57,29 +23,16 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
-Open the notebooks and run cells sequentially (ensure dataset paths are correctly configured if applicable).
+Open the notebooks and run cells sequentially (Make sure to change any paths to set your own dataset)
 
----
+## Model Pre-Trained Weights
 
-## 📊 Expected Output
+You can download the pre-trained model weights from the links below:
 
-Each notebook provides:
+- [Anxiety Model Weights](https://drive.google.com/file/d/16mIkJvgao_jahdWoyE-FD5NDste2pY34/view?usp=sharing)
+- [Depression Model Weights](https://drive.google.com/file/d/1WGVLdLLJmz5aRu7Xj175sIul4ViqA6Dp/view?usp=sharing)
 
-- Model performance metrics on validation/test sets  
-- Confusion matrices  
-- ROC curves or feature importance graphs (if applicable)  
-
----
-
-## 📌 Important Notes
-
-- These models are for **educational/research purposes only**.  
-- **Not intended for clinical diagnosis or treatment decisions.**  
-- Always anonymize sensitive data before processing.  
-
----
-
-## 👤 Author(s)
+## Author(s)
 
 - Manan Aggarwal (2022273)
 - Shobhit Raj (2022482)
